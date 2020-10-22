@@ -1,8 +1,11 @@
+  
 public class Alumno
 {
-    public int codigo { get; set; }
-    public string nombre { get; set; }
-    void ingresarNota(){
-        
+
+    public int Codigo { get; set; }
+    public string Nombre { get; set; }
+
+    public void ingresarNota() {
+
     }
 }

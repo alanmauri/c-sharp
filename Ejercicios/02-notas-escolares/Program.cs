@@ -8,12 +8,12 @@ namespace notas_escolares
         {
             Alumno Alumno1 = new Alumno();
             Alumno1.codigo = 1;
-            Alumno1.nombre = "Juan";
+            Alumno1.nombre = "Alan";
             Alumno1.ingresarNota();
 
             Alumno Alumno2 = new Alumno();
             Alumno2.codigo = 2;
-            Alumno2.nombre = "Gustavo";
+            Alumno2.nombre = "Cornejo";
             Alumno2.ingresarNota();
 
             Console.WriteLine("Alumno: " + Alumno1.nombre);
